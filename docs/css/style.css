@@ -2,6 +2,7 @@
 @import url('pages/exp-formations.css');
 @import url('pages/a-propos.css');
 @import url('pages/contact.css');
+@import url('pages/passions.css');
 
 /* ======================== Variables =========================== */
 
@@ -198,6 +199,132 @@ button {
 
     .skill-category {
         margin-bottom: 3.5rem;
+    }
+
+    .contact-page {
+        padding:
+            5rem
+            2rem
+            7rem;
+    }
+
+    .contact-container {
+        width: min(100%, 760px);
+    }
+
+    .contact__header {
+        margin-bottom: 2.5rem;
+    }
+
+    .contact__header h1 {
+        font-size: 3rem;
+    }
+
+    .contact-form {
+        padding:
+            3.5rem
+            3rem;
+    }
+
+    .contact-form__field {
+        display: grid;
+
+        grid-template-columns:
+            150px
+            minmax(0, 1fr);
+
+        align-items: start;
+
+        gap: 1.5rem;
+
+        margin-bottom: 2rem;
+    }
+
+    .contact-form__field label {
+        padding-top: 0.7rem;
+
+        font-size: 1.4rem;
+    }
+
+    .contact-form__field textarea {
+        min-height: 200px;
+    }
+
+    .contact-form__actions {
+        justify-content: flex-end;
+
+        padding-left: calc(150px + 1.5rem);
+    }
+
+    .contact-form__submit {
+        min-width: 180px;
+    }
+
+    .download-cv {
+        margin-top: 5rem;
+    }
+
+    .passions-page {
+        padding:
+            5rem
+            2rem
+            8rem;
+    }
+
+    .passions-intro {
+        margin-bottom: 4rem;
+    }
+
+    .passions-intro__title {
+        font-size: 3.5rem;
+    }
+
+    .passions-intro__subtitle {
+        font-size: 1.5rem;
+    }
+
+    .passions-card {
+        width: min(100%, 700px);
+
+        margin-bottom: 4.5rem;
+
+        padding:
+            2rem
+            2.5rem
+            2.5rem;
+    }
+
+    .passions-card__title {
+        font-size: 2.1rem;
+    }
+
+    .passions-card__description {
+        font-size: 1.25rem;
+    }
+
+    .passions-card__illustration {
+        width: min(100%, 480px);
+    }
+
+    .passions-carousel {
+        gap: 1rem;
+    }
+
+    .passions-carousel__placeholder {
+        min-height: 220px;
+    }
+
+    .passions-carousel__button {
+        width: 45px;
+        height: 45px;
+    }
+
+    .passions-refuge {
+        margin-top: 6rem;
+    }
+
+    .passions-refuge__quote {
+        font-size: 1.3rem;
     }
 }
 
